@@ -536,27 +536,27 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	this.actionFrames = [163];
+	this.actionFrames = [117];
 	// timeline functions:
-	this.frame_163 = function() {
+	this.frame_117 = function() {
 		this.stop();
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(163).call(this.frame_163).wait(13));
+	this.timeline.addTween(cjs.Tween.get(this).wait(117).call(this.frame_117).wait(13));
 
 	// border
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("#000000").ss(1,2,0,3).p("A46j0MAx1AAAIAAHpMgx1AAAg");
 	this.shape.setTransform(160,25);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(176));
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(130));
 
 	// LOGO
 	this.instance = new lib.LOGO();
 	this.instance.setTransform(248.25,5.2,0.5,0.5,0,0,0,0.5,0.4);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(176));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(130));
 
 	// HEAD1
 	this.instance_1 = new lib.HEAD1();
@@ -564,7 +564,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_1.alpha = 0;
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(47).to({_off:false},0).to({y:213.1,alpha:1},19,cjs.Ease.quadOut).to({_off:true},29).wait(81));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1).to({_off:false},0).to({y:213.1,alpha:1},19,cjs.Ease.quadOut).to({_off:true},29).wait(81));
 
 	// SUBHEAD1
 	this.instance_2 = new lib.SUBHEAD1();
@@ -572,7 +572,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(95).to({_off:false},0).to({y:42,alpha:1},19,cjs.Ease.quadOut).wait(62));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(49).to({_off:false},0).to({y:42,alpha:1},19,cjs.Ease.quadOut).wait(62));
 
 	// SUBHEAD2
 	this.instance_3 = new lib.SUBHEAD2();
@@ -580,14 +580,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_3.alpha = 0;
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(143).to({_off:false},0).to({y:41,alpha:1},19,cjs.Ease.quadOut).wait(14));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(97).to({_off:false},0).to({y:41,alpha:1},19,cjs.Ease.quadOut).wait(14));
 
 	// FOOTER-bkgd
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#FBE089").s().p("A4/D6IAAnzMAx/AAAIAAHzg");
 	this.shape_1.setTransform(160,25);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(176));
+	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(130));
 
 	this._renderFirstFrame();
 
